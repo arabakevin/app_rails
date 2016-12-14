@@ -15,15 +15,15 @@
 # gem 'pg'
 #
 default: &default
+
+  host:localhost
+  username: pguser
+  password: pguser_password
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-
-  host:localhost
-  username: pguser
-  password: pguser_password
 
 development:
   <<: *default
