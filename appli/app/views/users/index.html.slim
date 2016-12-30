@@ -1,0 +1,18 @@
+h1 liste des utilisateurs
+
+table
+  thead
+    tr
+      th nom
+      th email
+      th
+
+  tbody
+    - @users.each do |user|
+      tr class='user'
+        td.name =  user.nom
+        td.email = user.email
+        td.links = link_to 'Montrer',user 
+    
+
+    

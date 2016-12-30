@@ -1,0 +1,9 @@
+p id="notice" notice 
+
+p
+  strong Nom: #{@user.nom}
+
+p
+  strong Email: #{@user.email}
+p
+  b  #{link_to 'Back', users_path} | #{link_to 'Edit', edit_user_path(@user)}
