@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "pages/home"
+  get "pages/contact"
   resources :users
   # action par default
   def index
