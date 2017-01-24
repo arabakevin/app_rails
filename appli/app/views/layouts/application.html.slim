@@ -6,6 +6,17 @@ html lang='en'
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
     // empeche le cross-site-request
-    = csrf_meta_tags
-    body
-      = yield
+    = csrf_meta_tags 
+  body
+    div class="container"
+      header
+        = image_tag("logo.png", :alt => "Application Exemple", :class => "round")
+        nav class="round"
+          ul
+            li = link_to "Accueil", '#' 
+            li = link_to "Aide", '#' 
+            li = link_to "Inscription", '#' 
+      
+      section class="round"
+        = yield
+  
