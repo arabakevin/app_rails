@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get "pages/home"
-  get "pages/contact"
-  get "pages/about"
+
+  root :to => 'pages#home'
+  match '/contact', :to => 'pages#contact', via: :get
+  match '/about',   :to => 'pages#about', via: :get
+  match '/help',    :to => 'pages#help', via: :get
   resources :users
   # action par default
   def index
