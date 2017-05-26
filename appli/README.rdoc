@@ -1,8 +1,8 @@
 == README
 
-this application is the application who changes my future because itßs a new start for me.
+this application is the application who changes my future because it s a new start for me.
 
 <tt>language: Ruby on rails </tt>.
 
 
-cest un projet perso qui a u tres bon avenir
+This application aims to help and push our limits

@@ -1,7 +1,11 @@
-# NEWS
-here there are the news features between versions
+# Change Log
 
-  ## 0.0.1
-  - mise en place de la page about
-  - mise en place de la page contact
-  - mise en place de la page home
+## Unreleased
+
+ - Destroys the beta invitation when deleting a user
+ - Update staging env in order to use HTTPS
+
+## 0.29.12 (2017-05-26)
+  - adding about page
+  - adding account page
+  - adding home page
